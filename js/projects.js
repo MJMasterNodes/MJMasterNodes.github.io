@@ -1,5 +1,6 @@
 oss_projects = {};
 oss_projects['league'] = {
+  featured: true,
   position: 1,
   background: 'uefa2_bg.png'
 }
