@@ -4,6 +4,7 @@ MasterNode = function(name, coin) {
     this.usd_price = coin.usd_price;
     this.btc_price = coin.btc_price;
     this.description = coin.description;
+    this.MNs = coin.MNs;
 }
 
 MasterNode.prototype.website = function(){
@@ -34,6 +35,7 @@ MasterNode.prototype.getContainer = function(index){
         '<div class="project island-light island-stack island featured-project', last, ' ">',
             this.logoImage(),
             this.masternodeContent(),
+            this.masterNodeLinks(),
         '</div>'
     ].join('');
 }
@@ -61,6 +63,28 @@ MasterNode.prototype.masternodeContent = function(){
       '<p>', this.description, '</p>',
     '</div>'
   ].join('');
+}
+
+MasterNode.prototype.getMasterNodeLink = function(mn, idx){
+    if (mn){
+        return '<li><a href="'+ mn +'" target="_blank"><span class="octicon octicon-file-text"></span>MN_'+idx+'</a> </li>';
+    }
+}
+
+MasterNode.prototype.masterNodeLinks = function(){
+if (this.MNs) {
+    var i = 0;
+    var links = '';
+    for (mn in this.MNs){
+        links += this.getMasterNodeLink(mn, i);
+        i += 1;
+    }
+    alert(links);
+    return [
+    '<div class="island-item bottom-links">',
+        links, 
+        '</div>'].join('');
+    }
 }
 
 $(document).ready(function(){
