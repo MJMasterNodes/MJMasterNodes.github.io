@@ -55,8 +55,8 @@ MasterNode.prototype.masternodeContent = function(){
         '<a href="', this.website(), '" target="_blank">', this.name, '</a>',
       '</h3>',
       '<div class="mn-info">',
-        '<span><i class="coin coin-usd-price"></i> ', this.usd_price, '</span> ',
-        '<span><i class="coin coin-btc-price"></i> ', this.btc_price, '</span>',
+        '<span><i class="coin coin-usd-price"></i> USD:', this.usd_price, '</span> ',
+        '<span><i class="coin coin-btc-price"></i> BTC:', this.btc_price, '</span>',
       '</div>',
       '<p>', this.description, '</p>',
     '</div>'
