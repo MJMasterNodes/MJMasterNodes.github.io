@@ -90,6 +90,7 @@ $(document).ready(function(){
     for (coin in coins){
         var masternode = new MasterNode(coin, coins[coin]);
         $('.masternodes .coins').append(masternode.getContainer(i+1));
+        i += 1;
     }
-    $('.masternodes-count').html(coins.length);
+    $('.masternodes-count').html(i);
 });
