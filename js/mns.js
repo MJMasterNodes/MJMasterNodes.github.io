@@ -65,6 +65,7 @@ MasterNode.prototype.masternodeContent = function(){
 
 $(document).ready(function(){
     $('.masternodes .coins').empty();
+    console.log(coins);
     coins.forEach(function(coin, i){
         console.log(coin);
         console.log(i);
