@@ -67,19 +67,16 @@ MasterNode.prototype.masternodeContent = function(){
 
 MasterNode.prototype.getMasterNodeLink = function(mn, idx){
     if (mn){
-        return '<li><a href="'+ mn +'" target="_blank"><span class="octicon octicon-file-text"></span>MN_'+idx+'</a> </li>';
+        return '<div><li><a href="'+ mn[0] +'" target="_blank">Explorer_'+idx+'</a> </li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
     }
 }
 
 MasterNode.prototype.masterNodeLinks = function(){
 if (this.MNs) {
-    var i = 0;
     var links = '';
     for (mn in this.MNs){
-        links += this.getMasterNodeLink(mn, i);
-        i += 1;
+        links += this.getMasterNodeLink(this.MNs[mn], mn);
     }
-    alert(links);
     return [
     '<div class="island-item bottom-links">',
         links, 
