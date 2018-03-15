@@ -3,7 +3,7 @@ MasterNode = function(name, coin) {
     this.alias = coin.alias;
     this.usd_price = coin.usd_price;
     this.btc_price = coin.btc_price;
-    this.description = coin.discription;
+    this.description = coin.description;
 }
 
 MasterNode.prototype.website = function(){
@@ -31,7 +31,7 @@ MasterNode.prototype.getContainer = function(index){
     if (index % 4 == 0) {last = 'last-in-row'}
 
     return [
-        '<div class="coin island-light island-stack island ', this.alias, ' ', last, ' ">',
+        '<div class="project island-light island-stack island featured-project', last, ' ">',
             this.logoImage(),
             this.masternodeContent(),
         '</div>'
@@ -52,7 +52,7 @@ MasterNode.prototype.masternodeContent = function(){
   return [
     '<div class="island-item">',
       '<h3>',
-        '<a href="', this.website(), '" target="_blank">', this.name, '</a>',
+        '<a href="', this.website(), '" target="_blank">', this.name, ' (',this.alias,')</a>',
       '</h3>',
       '<div class="mn-info">',
         '<span><i class="coin coin-usd-price"></i> USD:', this.usd_price, '</span> ',
