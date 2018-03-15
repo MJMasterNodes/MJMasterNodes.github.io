@@ -1,5 +1,5 @@
-MasterNode = function(coin) {
-    this.name = coin.name;
+MasterNode = function(name, coin) {
+    this.name = name;
     this.alias = coin.alias;
     this.usd_price = coin.usd_price;
     this.btc_price = coin.btc_price;
@@ -65,13 +65,10 @@ MasterNode.prototype.masternodeContent = function(){
 
 $(document).ready(function(){
     $('.masternodes .coins').empty();
-    console.log(coins);
-    coins.forEach(function(coin, i){
-        console.log(coin);
-        console.log(i);
-        var masternode = new MasterNode(coin);
-        console.log(masternode.getContainer(i+1));
+    var i = 0;
+    for (coin in coins){
+        var masternode = new MasterNode(coin, coins[coin]);
         $('.masternodes .coins').append(masternode.getContainer(i+1));
-    });
+    }
     $('.masternodes-count').html(coins.length);
 });
