@@ -72,4 +72,5 @@ $(document).ready(function(){
         console.log(masternode.getContainer(i+1));
         $('.masternodes .coins').append(masternode.getContainer(i+1));
     });
+    $('.masternodes-count').html(coins.length);
 });
