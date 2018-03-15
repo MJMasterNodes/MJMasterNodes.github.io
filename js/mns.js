@@ -2,7 +2,6 @@ MasterNode = function(name, coin) {
     this.name = name;
     this.alias = coin.alias;
     this.usd_price = coin.usd_price;
-    this.btc_price = coin.btc_price;
     this.description = coin.description;
     this.MNs = coin.MNs;
 }
@@ -58,7 +57,6 @@ MasterNode.prototype.masternodeContent = function(){
       '</h3>',
       '<div class="mn-info">',
         '<span><i class="coin coin-usd-price"></i> USD:', this.usd_price, '</span> ',
-        '<span><i class="coin coin-btc-price"></i> BTC:', this.btc_price, '</span>',
       '</div>',
       '<p>', this.description, '</p>',
     '</div>'
