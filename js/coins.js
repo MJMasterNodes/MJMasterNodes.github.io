@@ -31,3 +31,11 @@ coins['Pyro'] = {
     usd_price: '1.0',
     MNs: [['','https://docs.google.com/spreadsheets/d/1Srn-B5f3YPGGddqsLDhj8BEaLUCgXg1P8AgS9dB0FXc/edit?usp=sharing'],]
 };
+coins['banq'] = {
+    alias : 'BANQ',
+    website : 'http://banq.online',
+    logo : 'banq.png',
+    description : 'BANQ is innovative decentralized global payment system based on blockchain technology and secured by Masternode system.',
+    usd_price: '10.0',
+    MNs: [['http://128.199.42.147:3001/address/BPQ3PHPSkeDFePKa9QvWFkD8g6g7vszhyF','https://docs.google.com/spreadsheets/d/1WsZO7wMduvouZrLOLVJZaxdUIgvea-tau1FrdEYPOrg/edit?usp=sharing'],]
+};
