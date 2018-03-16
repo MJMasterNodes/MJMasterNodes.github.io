@@ -28,10 +28,10 @@ MasterNode.prototype.getWebsiteLink = function() {
 
 MasterNode.prototype.getContainer = function(index){
     var last = '';
-    if (index % 5 == 0) {last = 'last-in-row'}
+    if (index % 4 == 0) {last = 'last-in-row'}
 
     return [
-        '<div class="project island-light island-stack island featured-project', last, ' ">',
+        '<div class="project island-light island-stack island featured-project ', last, ' ">',
             this.logoImage(),
             this.masternodeContent(),
             this.masterNodeLinks(),
