@@ -12,6 +12,14 @@ coins['friendship'] = {
     website : 'https://www.friendshipcoin.com',
     logo : 'friendship.png',
     description : 'Everyone can see it, but only you can feel the warmth. We want to spread the love one small blockchain transaction at a time. Lets put a new currency to work for the world.',
-    usd_price: '0.018',
+    usd_price: '0.15',
     MNs: [['https://explore.friendshipcoin.com/address/fTD7LMR4cmuV4t9pHPNBU5GRdsqwGJqjeA','https://docs.google.com/spreadsheets/d/17Wns2Ol_wZmQf7n522hx5X-LJ7map2eDdi9TGF0wtY4/edit?usp=sharing'],]
+};
+coins['international'] = {
+    alias : 'IMC',
+    website : 'http://intermodalcoin.online',
+    logo : 'internationalcoin.png',
+    description : 'Intermodal Coin is developed out of need in the Intermodal industry with the purpose to solve traditional Intermodal problems. This will result in more speed, faster transits, less delays, costs and damages while reducing the environmental footprint at the same time.',
+    usd_price: '1.0',
+    MNs: [['http://explorer.intermodalcoin.online/address/SkGhNKZbvHDiThP9XQ5NSUMawyPBvVM6Ug','https://docs.google.com/spreadsheets/d/1z-q9lBiqplKCxvt2TqKN-Uw4Bj6cwCQ-SieLGtmMan4/edit?usp=sharing'],]
 };
