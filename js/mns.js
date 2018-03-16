@@ -28,7 +28,7 @@ MasterNode.prototype.getWebsiteLink = function() {
 
 MasterNode.prototype.getContainer = function(index){
     var last = '';
-    if (index % 4 == 0) {last = 'last-in-row'}
+    if (index % 5 == 0) {last = 'last-in-row'}
 
     return [
         '<div class="project island-light island-stack island featured-project', last, ' ">',
@@ -65,7 +65,11 @@ MasterNode.prototype.masternodeContent = function(){
 
 MasterNode.prototype.getMasterNodeLink = function(mn, idx){
     if (mn){
-        return '<div><li><a href="'+ mn[0] +'" target="_blank">Explorer_'+idx+'</a> </li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
+        if (mn[0] != ''){
+            return '<div><li><a href="'+ mn[0] +'" target="_blank">Explorer_'+idx+'</a> </li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
+        }else{
+            return '<div><li>explorer not available now</li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
+        }
     }
 }
 

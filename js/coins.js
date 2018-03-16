@@ -23,3 +23,11 @@ coins['international'] = {
     usd_price: '1.0',
     MNs: [['http://explorer.intermodalcoin.online/address/SkGhNKZbvHDiThP9XQ5NSUMawyPBvVM6Ug','https://docs.google.com/spreadsheets/d/1z-q9lBiqplKCxvt2TqKN-Uw4Bj6cwCQ-SieLGtmMan4/edit?usp=sharing'],]
 };
+coins['Pyro'] = {
+    alias : 'PYRO',
+    website : 'https://pyro.solutions',
+    logo : 'Pyro.png',
+    description : "Pyro is new digital cryptocurrency based on improved Dash blockchain. Established on a Proof of Work and Masternode system, this means everyone  can participate in Pyro's growth, to make  Pyro more decentralized without a monopoly.",
+    usd_price: '1.0',
+    MNs: [['','https://docs.google.com/spreadsheets/d/1Srn-B5f3YPGGddqsLDhj8BEaLUCgXg1P8AgS9dB0FXc/edit?usp=sharing'],]
+};
