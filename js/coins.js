@@ -39,3 +39,11 @@ coins['banq'] = {
     usd_price: '10.0',
     MNs: [['http://128.199.42.147:3001/address/BPQ3PHPSkeDFePKa9QvWFkD8g6g7vszhyF','https://docs.google.com/spreadsheets/d/1WsZO7wMduvouZrLOLVJZaxdUIgvea-tau1FrdEYPOrg/edit?usp=sharing'],]
 };
+coins['YOBA'] = {
+    alias : 'YOBA',
+    website : 'https://yoba.world',
+    logo : 'YOBA.png',
+    description : 'Be fast as YOBA. Be popular as YOBA. Be in the know as YOBA. YOBA is the best in the internet and YOBA Coin will be the best too. YOBA is similar to BTC. It is round and yellow too.',
+    usd_price: '0.4',
+    MNs: [['','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
+};
