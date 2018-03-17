@@ -19,7 +19,7 @@ coins['international'] = {
     alias : 'IMC',
     website : 'http://intermodalcoin.online',
     logo : 'internationalcoin.png',
-    description : 'Intermodal Coin is developed out of need in the Intermodal industry with the purpose to solve traditional Intermodal problems. This will result in more speed, faster transits, less delays, costs and damages while reducing the environmental footprint at the same time.',
+    description : 'Intermodal Coin is developed out of need in the Intermodal industry with the purpose to solve traditional Intermodal problems.',
     usd_price: '1.0',
     MNs: [['http://explorer.intermodalcoin.online/address/SkGhNKZbvHDiThP9XQ5NSUMawyPBvVM6Ug','https://docs.google.com/spreadsheets/d/1z-q9lBiqplKCxvt2TqKN-Uw4Bj6cwCQ-SieLGtmMan4/edit?usp=sharing'],]
 };
