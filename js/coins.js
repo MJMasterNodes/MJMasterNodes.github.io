@@ -5,7 +5,7 @@ coins['league'] = {
     logo : 'uefa2_bg.png',
     description : 'League coin is made special for 2018 FIFA World Cup and will be integrated with a lot of betting platforms. As soon as 2018 FIFA World Cup in Russia starts you can use your coins for bets.',
     usd_price: '0.5',
-    MNs: [['http://explorer.league.express:3003/address/mxkqvoGXQfXCyfPFtZ5UmeyM2Q5BN2cjX6','https://docs.google.com/spreadsheets/d/1sgP3jBM8O0PJpi3aYBR0F4LgIYNLlJ9gGSIMX3zWswo/edit?usp=sharing'],['http://explorer.league.express:3003/address/n37NaRSTBWq9UqmJtqvjbp2MCckT5AQCZ2','https://docs.google.com/spreadsheets/d/1orgjsPmAZqWYgeMFHlSm2LHLPp2AYDV54WYE9QfeOXw/edit#gid=0']]
+    MNs: [['http://explorer.league.express:3003/address/mxkqvoGXQfXCyfPFtZ5UmeyM2Q5BN2cjX6','https://docs.google.com/spreadsheets/d/1sgP3jBM8O0PJpi3aYBR0F4LgIYNLlJ9gGSIMX3zWswo/edit?usp=sharing'],['http://explorer.league.express:3003/address/mvxDdreYozfEESoFXNTdoc1JNxgaAjXJoA','https://docs.google.com/spreadsheets/d/1orgjsPmAZqWYgeMFHlSm2LHLPp2AYDV54WYE9QfeOXw/edit#gid=0']]
 };
 coins['friendship'] = {
     alias : 'FSC',
