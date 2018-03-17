@@ -47,3 +47,11 @@ coins['YOBA'] = {
     usd_price: '0.4',
     MNs: [['','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
+coins['LUXCoin'] = {
+    alias : 'LUX',
+    website : 'https://luxcore.io',
+    logo : 'lux.png',
+    description : 'FIRST OF ITS KIND: SMART CONTRACTS  +  SEGWIT  +  PARALLEL MASTERNODES  +  LUXGATE',
+    usd_price: '6.63',
+    MNs: [['http://explorer.luxcoin.xyz/address/Lg8fq4FVvnpD1Mtf2wSQ5ca9HE8pm5RT5B','https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
+};
