@@ -73,6 +73,7 @@ h3 a i {
 }
 
 .project .island-item.featured-image {
+  margin-left: 44px;
   height: 100px;
   padding: 0;
 }
