@@ -14,10 +14,8 @@ MasterNode.prototype.website = function(){
 }
 
 MasterNode.prototype.logo = function(){
-    if (!this.coin_id){
-        if (coins[this.name] && coins[this.name].logo){
-            return coins[this.name].logo;
-        }
+    if (coins[this.name] && coins[this.name].logo){
+        return coins[this.name].logo;
     }
 }
 
@@ -35,7 +33,7 @@ MasterNode.prototype.getContainer = function(index){
 
     return [
         '<div class="project island-light island-stack island featured-project ', last, ' ">',
-            this.logo(),
+            this.logoImage(),
             this.cmcPrice(),
             this.masternodeContent(),
             this.masterNodeLinks(),
@@ -50,12 +48,14 @@ MasterNode.prototype.cmcPrice = function(){
 }
 
 MasterNode.prototype.logoImage = function(){
-    if (this.logo()){
-        return [
-            '<div class="island-item featured-image">',
-            '<img src="/img/', this.logo() ,'">',
-            '</div>'
-        ].join('');
+    if (!this.coin_id){
+        if (this.logo()){
+            return [
+                '<div class="island-item featured-image">',
+                '<img src="/img/', this.logo() ,'">',
+                '</div>'
+            ].join('');
+        }
     }
 }
 
