@@ -35,15 +35,15 @@ MasterNode.prototype.getContainer = function(index){
         '<div class="project island-light island-stack island featured-project ', last, ' ">',
             this.logoImage(),
             this.masternodeContent(),
-            this.masterNodeLinks(),
             this.cmcPrice(),
+            this.masterNodeLinks(),
         '</div>'
     ].join('');
 }
 
 MasterNode.prototype.cmcPrice = function(){
     if (this.coin_id){
-        return ['<div class="coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC">','</div>'].join('');
+        return ['<div class="island-item coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC">','</div>'].join('');
     }
 }
 
