@@ -43,7 +43,7 @@ MasterNode.prototype.getContainer = function(index){
 
 MasterNode.prototype.cmcPrice = function(){
     if (this.coin_id){
-        return ['<div class="island-item featured-image coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true">','</div>'].join('');
+        return ['<div class="coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true">','</div>'].join('');
     }
 }
 
@@ -65,9 +65,6 @@ MasterNode.prototype.masternodeContent = function(){
       '<h3>',
         '<a href="', this.website(), '" target="_blank">', this.name, ' (',this.alias,')</a>',
       '</h3>',
-      '<div class="mn-info">',
-        '<span><i class="coin coin-usd-price"></i> USD:', this.usd_price, '</span> ',
-      '</div>',
       '<p>', this.description, '</p>',
     '</div>'
   ].join('');
