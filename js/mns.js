@@ -14,8 +14,10 @@ MasterNode.prototype.website = function(){
 }
 
 MasterNode.prototype.logo = function(){
-    if (coins[this.name] && coins[this.name].logo){
-        return coins[this.name].logo;
+    if (!this.coin_id){
+        if (coins[this.name] && coins[this.name].logo){
+            return coins[this.name].logo;
+        }
     }
 }
 
@@ -29,13 +31,13 @@ MasterNode.prototype.getWebsiteLink = function() {
 
 MasterNode.prototype.getContainer = function(index){
     var last = '';
-    if (index % 4 == 0) {last = 'last-in-row'}
+    if (index % 3 == 0) {last = 'last-in-row'}
 
     return [
         '<div class="project island-light island-stack island featured-project ', last, ' ">',
-            this.logoImage(),
-            this.masternodeContent(),
+            this.logo(),
             this.cmcPrice(),
+            this.masternodeContent(),
             this.masterNodeLinks(),
         '</div>'
     ].join('');

@@ -57,7 +57,7 @@ h3 a i {
   margin-right: 20px;
   position: relative;
   height: 200px;
-  width: 218px;
+  width: 288px;
 }
 
 .project.island.last-in-row {
@@ -65,7 +65,7 @@ h3 a i {
 }
 
 .project.island.featured-project {
-  height: 350px;
+  height: 400px;
 }
 
 .project:hover {
@@ -73,7 +73,7 @@ h3 a i {
 }
 
 .project .island-item.featured-image {
-  height: 100px;
+  height: 200px;
   padding: 0;
 }
 
@@ -94,7 +94,7 @@ h3 a i {
 .project .bottom-links {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  width: 196px;
+  width: 266px;
   position: absolute;
   bottom: 0px;
 }
