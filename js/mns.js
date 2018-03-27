@@ -43,7 +43,7 @@ MasterNode.prototype.getContainer = function(index){
 
 MasterNode.prototype.cmcPrice = function(){
     if (this.coin_id){
-        return ['<div class="island-item coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC">','</div>'].join('');
+        return ['<div class="island-item coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true">','</div>'].join('');
     }
 }
 
