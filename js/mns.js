@@ -4,6 +4,7 @@ MasterNode = function(name, coin) {
     this.usd_price = coin.usd_price;
     this.description = coin.description;
     this.MNs = coin.MNs;
+    this.coin_id = coin.id
 }
 
 MasterNode.prototype.website = function(){
@@ -35,8 +36,15 @@ MasterNode.prototype.getContainer = function(index){
             this.logoImage(),
             this.masternodeContent(),
             this.masterNodeLinks(),
+            this.cmcPrice(),
         '</div>'
     ].join('');
+}
+
+MasterNode.prototype.cmcPrice = function(){
+    if (this.coin_id){
+        return ['<div class="coinmarketcap-currency-widget" data-currencyid="', this.coin_id, '" data-base="USD"  data-secondary="BTC">','</div>'].join('');
+    }
 }
 
 MasterNode.prototype.logoImage = function(){

@@ -53,5 +53,6 @@ coins['LUXCoin'] = {
     logo : 'lux.png',
     description : 'FIRST OF ITS KIND: SMART CONTRACTS  +  SEGWIT  +  PARALLEL MASTERNODES  +  LUXGATE',
     usd_price: '6.63',
+    id: '2107',
     MNs: [['http://explorer.luxcoin.xyz/address/Lg8fq4FVvnpD1Mtf2wSQ5ca9HE8pm5RT5B','https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
 };
