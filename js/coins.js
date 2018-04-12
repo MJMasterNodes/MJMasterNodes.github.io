@@ -55,6 +55,14 @@ coins['APOLLON'] = {
     usd_price: '0.12',
     MNs: [['https://explorer.apolloncoin.io','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
+coins['Guardian Coin'] = {
+    alias : 'GDC',
+    website : 'http://www.guardiancoin.online',
+    logo : 'gdc.png',
+    description : 'Decentralized Escrow currency for Crypto world Guardian Coin is the most secure payment method from a counterparty risk perspective safeguarding both buyer and seller, all funds transacted using escrow are kept in trust.',
+    usd_price: '6.819',
+    MNs: [['https://explorer.guardiancoin.online','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
+};
 coins['LUXCoin'] = {
     alias : 'LUX',
     website : 'https://luxcore.io',
