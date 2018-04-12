@@ -47,6 +47,14 @@ coins['YOBA'] = {
     usd_price: '0.4',
     MNs: [['','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
+coins['APOLLON'] = {
+    alias : 'XAP',
+    website : 'http://apolloncoin.io',
+    logo : 'xap.png',
+    description : 'Apollon is made for enlightening the world of masternode coins!',
+    usd_price: '0.12',
+    MNs: [['https://explorer.apolloncoin.io','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
+};
 coins['LUXCoin'] = {
     alias : 'LUX',
     website : 'https://luxcore.io',
