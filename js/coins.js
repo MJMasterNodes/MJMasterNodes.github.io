@@ -69,7 +69,7 @@ coins['Folm'] = {
     logo : 'folm-logo.png',
     description : 'Payment key for the future secure and anonymous',
     usd_price: '0.16',
-    MNs: [['https://explorer.folm.io/wallets/FtP1hSUfJJewGmBuipsty13CwH3xyHGvUS'],]
+    MNs: [['https://explorer.folm.io/wallets/FtP1hSUfJJewGmBuipsty13CwH3xyHGvUS', 'https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
 };
 coins['LUXCoin'] = {
     alias : 'LUX',
@@ -78,5 +78,5 @@ coins['LUXCoin'] = {
     description : 'FIRST OF ITS KIND: SMART CONTRACTS  +  SEGWIT  +  PARALLEL MASTERNODES  +  LUXGATE',
     usd_price: '6.63',
     id: '2107',
-    MNs: [['http://explorer.luxcoin.xyz/address/Lg8fq4FVvnpD1Mtf2wSQ5ca9HE8pm5RT5B','https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
+    MNs: [['http://explorer.luxcoin.xyz/address/Lg8fq4FVvnpD1Mtf2wSQ5ca9HE8pm5RT5B', 'https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
 };
