@@ -63,6 +63,14 @@ coins['Guardian Coin'] = {
     usd_price: '6.819',
     MNs: [['https://explorer.guardiancoin.online','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
+coins['Folm'] = {
+    alias : 'FLM',
+    website : 'https://folm.io',
+    logo : 'folm-logo.png',
+    description : 'Payment key for the future secure and anonymous',
+    usd_price: '0.16',
+    MNs: [['https://explorer.folm.io/wallets/FtP1hSUfJJewGmBuipsty13CwH3xyHGvUS'],]
+};
 coins['LUXCoin'] = {
     alias : 'LUX',
     website : 'https://luxcore.io',
