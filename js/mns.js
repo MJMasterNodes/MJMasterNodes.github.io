@@ -73,9 +73,9 @@ MasterNode.prototype.masternodeContent = function(){
 MasterNode.prototype.getMasterNodeLink = function(mn, idx){
     if (mn){
         if (mn[0] != ''){
-            return '<div><li><a href="'+ mn[0] +'" target="_blank">Explorer_'+idx+'</a> </li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
+            return '<div><li><a href="'+ mn[0] +'" target="_blank">Explorer_'+idx+'</a> &emsp; &emsp; <a href="'+ mn[1] +'" target="_blank">ShareHoder_'+idx+'</a> </li></div>';
         }else{
-            return '<div><li>explorer not available now</li>' + '<li><a href="'+ mn[1] +'" target="_blank">Shared Master Node_'+idx+'</a> </li></div>';
+            return '<div><li>explorer not available. &emsp; &emsp; <a href="'+ mn[1] +'" target="_blank">ShareHoder_'+idx+'</a> </li></div>';
         }
     }
 }
