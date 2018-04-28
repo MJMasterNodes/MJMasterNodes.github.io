@@ -20,8 +20,16 @@ coins['APOLLON'] = {
     website : 'http://apolloncoin.io',
     logo : 'xap.png',
     description : 'Apollon is made for enlightening the world of masternode coins!',
-    usd_price: '0.12',
-    MNs: [['https://explorer.apolloncoin.io','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
+    usd_price: '0.186',
+    MNs: [['https://explorer.apolloncoin.io/address/agcjfetxtrbg4rs29l8pcbppzywg31drt5','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
+};
+coins['ULTIMA'] = {
+    alias : 'ULT',
+    website : 'http://ultima.qa',
+    logo : 'logo_trans.png',
+    description : 'SKILLS TRADE AND KNOWLEDGE SHARING!',
+    usd_price: '1.82',
+    MNs: [['http://explorer.ultima.qa/address/Ua5NEs8WWc8mHymU3A1xpa3PtoTy7XcyQv','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
 coins['Guardian Coin'] = {
     alias : 'GDC',
