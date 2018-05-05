@@ -96,12 +96,30 @@ if (this.MNs) {
 }
 
 $(document).ready(function(){
-    $('.masternodes .coins').empty();
-    var i = 0;
+    $('.masternodes .full_coins').empty();
+    $('.masternodes .shared_coins').empty();
+    full_coins = {};
+    shared_coins = {};
     for (coin in coins){
+        if (coins[coin].type == 'full'){
+            full_coins[coin] = coins[coin];
+        }else{
+            shared_coins[coin] = coins[coin];
+        }
+    }
+
+    var i = 0;
+    for (coin in full_coins){
         var masternode = new MasterNode(coin, coins[coin]);
-        $('.masternodes .coins').append(masternode.getContainer(i+1));
+        $('.masternodes .full_coins').append(masternode.getContainer(i+1));
         i += 1;
     }
-    $('.masternodes-count').html(i);
+
+    var j = 0;
+    for (coin in shared_coins){
+        var masternode = new MasterNode(coin, coins[coin]);
+        $('.masternodes .shared_coins').append(masternode.getContainer(j+1));
+        j += 1;
+    }
+    $('.masternodes-count').html(i+j);
 });
