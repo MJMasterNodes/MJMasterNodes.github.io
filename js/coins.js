@@ -15,6 +15,14 @@ coins['league'] = {
     usd_price: '1.5',
     MNs: [['http://explorer.league.express:3003/address/mxkqvoGXQfXCyfPFtZ5UmeyM2Q5BN2cjX6',''],['http://explorer.league.express:3003/address/mvxDdreYozfEESoFXNTdoc1JNxgaAjXJoA',''], ['http://explorer.league.express:3003/address/mxnyRUMYtaNg6hwf4tJDppCWBr1E5mkGBg', '']]
 };
+coins['APOLLON'] = {
+    alias : 'XAP',
+    website : 'http://apolloncoin.io',
+    logo : 'xap.png',
+    description : 'Apollon is made for enlightening the world of masternode coins!',
+    usd_price: '0.186',
+    MNs: [['https://explorer.apolloncoin.io/address/agcjfetxtrbg4rs29l8pcbppzywg31drt5',''],]
+};
 coins['ULTIMA'] = {
     alias : 'ULT',
     website : 'http://ultima.qa',
@@ -30,14 +38,6 @@ coins['friendship'] = {
     description : 'Everyone can see it, but only you can feel the warmth. We want to spread the love one small blockchain transaction at a time. Lets put a new currency to work for the world.',
     usd_price: '0.15',
     MNs: [['https://explore.friendshipcoin.com/address/fTD7LMR4cmuV4t9pHPNBU5GRdsqwGJqjeA','https://docs.google.com/spreadsheets/d/17Wns2Ol_wZmQf7n522hx5X-LJ7map2eDdi9TGF0wtY4/edit?usp=sharing'],]
-};
-coins['APOLLON'] = {
-    alias : 'XAP',
-    website : 'http://apolloncoin.io',
-    logo : 'xap.png',
-    description : 'Apollon is made for enlightening the world of masternode coins!',
-    usd_price: '0.186',
-    MNs: [['https://explorer.apolloncoin.io/address/agcjfetxtrbg4rs29l8pcbppzywg31drt5','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
 };
 coins['Guardian Coin'] = {
     alias : 'GDC',
