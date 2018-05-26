@@ -7,14 +7,6 @@ coins['Folm'] = {
     type: 'full',
     MNs: [['https://flm.overemo.com/address/ftp1hsufjjewgmbuipsty13cwh3xyhgvus', ''],['https://flm.overemo.com/address/fkfdtnshqw48mxjl6dvkf6pqj4puranhsz',''],['https://flm.overemo.com/address/fogrtqpobwflom9lodgafa2finy3dehouj','']]
 };
-coins['league'] = {
-    alias : 'LGA',
-    website : 'https://league.express',
-    logo : 'uefa2_bg.png',
-    description : 'League coin is made special for 2018 FIFA World Cup and will be integrated with a lot of betting platforms. As soon as 2018 FIFA World Cup in Russia starts you can use your coins for bets.',
-    type: 'full',
-    MNs: [['http://explorer.league.express:3003/address/mxkqvoGXQfXCyfPFtZ5UmeyM2Q5BN2cjX6',''],['http://explorer.league.express:3003/address/mvxDdreYozfEESoFXNTdoc1JNxgaAjXJoA',''], ['http://explorer.league.express:3003/address/mxnyRUMYtaNg6hwf4tJDppCWBr1E5mkGBg', '']]
-};
 coins['APOLLON'] = {
     alias : 'XAP',
     website : 'http://apolloncoin.io',
