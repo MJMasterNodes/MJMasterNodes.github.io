@@ -13,7 +13,7 @@ coins['APOLLON'] = {
     logo : 'xap.png',
     description : 'Apollon is made for enlightening the world of masternode coins!',
     type: 'full',
-    MNs: [['https://explorer.apolloncoin.io/address/agcjfetxtrbg4rs29l8pcbppzywg31drt5',''],['https://explorer.apolloncoin.io/address/agi8kpt3d5qazbanpye5y5nybme6hgnct6', '']]
+    MNs: [['https://xap2.ccore.online/address/ajxqnjqnqw3tn1gwtjempy1sms19yrjpsg',''],['https://xap2.ccore.online/address/awbrlwhygwgwv3m5nfvjf9gxnckupdrppq', '']]
 };
 coins['ULTIMA'] = {
     alias : 'ULT',
