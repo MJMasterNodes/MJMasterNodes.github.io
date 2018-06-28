@@ -5,7 +5,7 @@ coins['Folm'] = {
     logo : 'folm-logo.png',
     description : 'Payment key for the future secure and anonymous',
     type: 'full',
-    MNs: [['https://flm.overemo.com/address/ftp1hsufjjewgmbuipsty13cwh3xyhgvus', ''],['https://flm.overemo.com/address/fkfdtnshqw48mxjl6dvkf6pqj4puranhsz',''],['https://flm.overemo.com/address/fogrtqpobwflom9lodgafa2finy3dehouj','']]
+    MNs: [['https://flm.overemo.com/address/ftp1hsufjjewgmbuipsty13cwh3xyhgvus', ''],['https://flm.overemo.com/address/fkfdtnshqw48mxjl6dvkf6pqj4puranhsz',''],['https://flm.overemo.com/address/fogrtqpobwflom9lodgafa2finy3dehouj',''], ['https://flm.overemo.com/address/fywsvrvs1pejyaxvlw9wxwrhxttnyy3xgp', '']]
 };
 coins['APOLLON'] = {
     alias : 'XAP',
@@ -20,7 +20,7 @@ coins['ULTIMA'] = {
     website : 'http://ultima.qa',
     logo : 'logo_trans.png',
     description : 'SKILLS TRADE AND KNOWLEDGE SHARING!',
-    type: 'full', 
+    type: 'full',
     MNs: [['https://ult.overemo.com/address/ua5nes8wwc8mhymu3a1xpa3ptoty7xcyqv',''],['https://ult.overemo.com/address/urx1rncqncx8cqxvydmbtvfjdvsf4pf77m', '']]
 };
 coins['friendship'] = {
