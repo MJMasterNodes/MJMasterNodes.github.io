@@ -21,7 +21,7 @@ coins['ULTIMA'] = {
     logo : 'logo_trans.png',
     description : 'SKILLS TRADE AND KNOWLEDGE SHARING!',
     type: 'full',
-    MNs: [['https://ult.overemo.com/address/ua5nes8wwc8mhymu3a1xpa3ptoty7xcyqv',''],['https://ult.overemo.com/address/urx1rncqncx8cqxvydmbtvfjdvsf4pf77m', '']]
+    MNs: [['https://ult.overemo.com/address/ua5nes8wwc8mhymu3a1xpa3ptoty7xcyqv',''],['https://ult.overemo.com/address/urx1rncqncx8cqxvydmbtvfjdvsf4pf77m', ''], ['https://ult.overemo.com/address/usrd2wucmzvd3nkoxqmmtd5k1werrzvg7w', '']]
 };
 coins['friendship'] = {
     alias : 'FSC',
