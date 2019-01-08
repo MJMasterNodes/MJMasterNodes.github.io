@@ -45,7 +45,7 @@ coins['Rock2'] = {
     alias : 'ROCK2',
     website : 'https://icerockmining.io',
     logo : 'rock2.png',
-    description : 'Commercial Bitcoin Mining. Passive Income.'
+    description : 'Commercial Bitcoin Mining. Passive Income.',
     type: 'shared',
     id: '3065',
     MNs: [['https://etherscan.io/token/0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6', 'https://docs.google.com/spreadsheets/d/                  |1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing']]
