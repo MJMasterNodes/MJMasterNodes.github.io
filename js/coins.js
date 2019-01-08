@@ -13,7 +13,7 @@ coins['APOLLON'] = {
     logo : 'xap.png',
     description : 'Apollon is made for enlightening the world of masternode coins!',
     type: 'full',
-    MNs: [['https://xap2.ccore.online/address/ajxqnjqnqw3tn1gwtjempy1sms19yrjpsg',''],['https://xap2.ccore.online/address/awbrlwhygwgwv3m5nfvjf9gxnckupdrppq', ''], ['https://explorer.apolloncoin.io/address/aqcrb9vx7lpyqwhwmz1r33dub1kzh9srrj','']]
+    MNs: [['https://xap2.ccore.online/address/ajxqnjqnqw3tn1gwtjempy1sms19yrjpsg',''],['https://xap2.ccore.online/address/awbrlwhygwgwv3m5nfvjf9gxnckupdrppq', ''], ['https://explorer.apolloncoin.io/address/aqcrb9vx7lpyqwhwmz1r33dub1kzh9srrj',''],['https://explorer.apolloncoin.io/address/asuvjqdva9fxfkeituymyz73vh6lbeucmz', '']]
 };
 coins['ULTIMA'] = {
     alias : 'ULT',
@@ -23,22 +23,6 @@ coins['ULTIMA'] = {
     type: 'full',
     MNs: [['https://ult.overemo.com/address/ua5nes8wwc8mhymu3a1xpa3ptoty7xcyqv',''],['https://ult.overemo.com/address/urx1rncqncx8cqxvydmbtvfjdvsf4pf77m', ''], ['https://ult.overemo.com/address/usrd2wucmzvd3nkoxqmmtd5k1werrzvg7w', '']]
 };
-coins['friendship'] = {
-    alias : 'FSC',
-    website : 'https://www.friendshipcoin.com',
-    logo : 'friendship.png',
-    description : 'Everyone can see it, but only you can feel the warmth. We want to spread the love one small blockchain transaction at a time. Lets put a new currency to work for the world.',
-    type: 'shared',
-    MNs: [['https://explore.friendshipcoin.com/address/fTD7LMR4cmuV4t9pHPNBU5GRdsqwGJqjeA','https://docs.google.com/spreadsheets/d/17Wns2Ol_wZmQf7n522hx5X-LJ7map2eDdi9TGF0wtY4/edit?usp=sharing'],]
-};
-coins['Guardian Coin'] = {
-    alias : 'GDC',
-    website : 'http://www.guardiancoin.online',
-    logo : 'gdc.png',
-    description : 'Decentralized Escrow currency for Crypto world Guardian Coin is the most secure payment method from a counterparty risk perspective safeguarding both buyer and seller, all funds transacted using escrow are kept in trust.',
-    type: 'shared',
-    MNs: [['https://explorer.guardiancoin.online','https://docs.google.com/spreadsheets/d/1xTs3LHFuqYoiRiVtyrA-2A6PzhRDonlz_tZ8TBUvV9I/edit?usp=sharing'],]
-};
 coins['LUXCoin'] = {
     alias : 'LUX',
     website : 'https://luxcore.io',
@@ -47,4 +31,22 @@ coins['LUXCoin'] = {
     type: 'shared',
     id: '2107',
     MNs: [['http://explorer.luxcoin.xyz/address/Lg8fq4FVvnpD1Mtf2wSQ5ca9HE8pm5RT5B', 'https://docs.google.com/spreadsheets/d/1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing'],]
+};
+coins['COSS'] = {
+    alias : 'COSS',
+    website : 'https://coss.io',
+    logo : 'coss.png',
+    description : 'COSS stands for Crypto One-Stop Solution.',
+    type: 'shared',
+    id: '1989',
+    MNs: [['https://etherscan.io/token/0x65292eeadf1426cd2df1c4793a3d7519f253913b', '']]
+};
+coins['Rock2'] = {
+    alias : 'ROCK2',
+    website : 'https://icerockmining.io',
+    logo : 'rock2.png',
+    description : 'Commercial Bitcoin Mining. Passive Income.'
+    type: 'shared',
+    id: '3065',
+    MNs: [['https://etherscan.io/token/0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6', '']]
 };
