@@ -39,7 +39,7 @@ coins['COSS'] = {
     description : 'COSS stands for Crypto One-Stop Solution.',
     type: 'shared',
     id: '1989',
-    MNs: [['https://etherscan.io/token/0x65292eeadf1426cd2df1c4793a3d7519f253913b', 'https://docs.google.com/spreadsheets/d/                  |1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing']]
+    MNs: [['https://etherscan.io/token/0x9e96604445ec19ffed9a5e8dd7b50a29c899a10c', 'https://docs.google.com/spreadsheets/d/                  |1ypU0QsbVbV8NxqPWQvfyOfW7l-21BnQZr-uxWTd1dDg/edit?usp=sharing']]
 };
 coins['Rock2'] = {
     alias : 'ROCK2',
